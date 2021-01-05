@@ -2,10 +2,17 @@
 requires = ["setuptools >= 40.6.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[metadata]
-name = "great-limiter"
-version = "0.1"
-description = "A rate limiter package"
-
 [options]
 packages = "find:"
+
+[tool.poetry]
+name = "great-limiter"
+version = "0.1"
+description = ""
+authors = ["Michael Hernandez"]
+
+[tool.poetry.dependencies]
+python = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
