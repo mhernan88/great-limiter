@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools >= 40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+name = "great-limiter"
+version = "0.1"
+description = "A rate limiter package"
+
+[options]
+packages = "find:"
